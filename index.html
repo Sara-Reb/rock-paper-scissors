@@ -4,7 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <style>
+      body {
+        padding: 8px;
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-family: "monserrat", sans-serif;
+      }
+      .choice {
+        padding: 8px;
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 28px;
+        border-radius: 8px;
+        background-color: #2a3b5b;
+        color: white;
+        border: none;
+      }
+      .choice:hover {
+        background-color: #7088b5;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <button class="choice">ROCK</button>
+    <button class="choice">PAPER</button>
+    <button class="choice">SCISSORS</button>
+    <div class="results"></div>
+  </body>
 </html>
